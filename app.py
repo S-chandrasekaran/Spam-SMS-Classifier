@@ -32,8 +32,8 @@ y_pred2=model2.predict(x_test_tdidf)
 
 #implementing using streamlit application
 st.title("📧 Spam Email Classifier")
-st.write("This app classifies emails/messages as **Spam** or **Ham (Not Spam)** using ML models.")
 st.write("Developed by CHANDRASEKARAN S")
+st.write("This app classifies emails/messages as **Spam** or **Ham (Not Spam)** using ML models.")
 user_input = st.text_input("Enter an email/message:")
 if st.button("Classify"):
   if user_input.strip()!="":
